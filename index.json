@@ -1,0 +1,317 @@
+{
+  "math": {
+    "version": "1.0.0",
+    "description": "Mathematical functions and constants for INITLANG",
+    "author": "gopu-inc",
+    "dependencies": [],
+    "license": "MIT",
+    "repository": "https://github.com/gopu-inc/initlang-packages/math",
+    "keywords": ["math", "calculus", "trigonometry", "constants"],
+    "features": [
+      "Basic arithmetic operations",
+      "Power and square root functions",
+      "Mathematical constants (PI, E)",
+      "Max/Min functions"
+    ]
+  },
+  "strings": {
+    "version": "1.0.0",
+    "description": "String manipulation and text processing utilities",
+    "author": "gopu-inc",
+    "dependencies": [],
+    "license": "MIT",
+    "repository": "https://github.com/gopu-inc/initlang-packages/strings",
+    "keywords": ["strings", "text", "manipulation", "utilities"],
+    "features": [
+      "String length calculation",
+      "Case conversion",
+      "String searching",
+      "Text transformation"
+    ]
+  },
+  "utils": {
+    "version": "1.0.0",
+    "description": "Utility functions and helpers for common tasks",
+    "author": "gopu-inc",
+    "dependencies": [],
+    "license": "MIT",
+    "repository": "https://github.com/gopu-inc/initlang-packages/utils",
+    "keywords": ["utilities", "helpers", "tools", "common"],
+    "features": [
+      "Random number generation",
+      "Date and time utilities",
+      "Type checking",
+      "Array operations"
+    ]
+  },
+  "http": {
+    "version": "0.1.0",
+    "description": "HTTP client for making web requests and API calls",
+    "author": "gopu-inc",
+    "dependencies": [],
+    "license": "MIT",
+    "repository": "https://github.com/gopu-inc/initlang-packages/http",
+    "keywords": ["http", "web", "api", "requests", "client"],
+    "features": [
+      "GET and POST requests",
+      "JSON response parsing",
+      "Error handling",
+      "Headers support"
+    ]
+  },
+  "json": {
+    "version": "1.0.0",
+    "description": "JSON parsing and serialization utilities",
+    "author": "gopu-inc",
+    "dependencies": [],
+    "license": "MIT",
+    "repository": "https://github.com/gopu-inc/initlang-packages/json",
+    "keywords": ["json", "parsing", "serialization", "data"],
+    "features": [
+      "JSON string parsing",
+      "Object serialization",
+      "Pretty printing",
+      "Validation"
+    ]
+  },
+  "files": {
+    "version": "1.0.0",
+    "description": "File system operations and file handling",
+    "author": "gopu-inc",
+    "dependencies": [],
+    "license": "MIT",
+    "repository": "https://github.com/gopu-inc/initlang-packages/files",
+    "keywords": ["files", "io", "system", "storage"],
+    "features": [
+      "File reading and writing",
+      "Directory listing",
+      "Path manipulation",
+      "File information"
+    ]
+  },
+  "datetime": {
+    "version": "1.0.0",
+    "description": "Date and time manipulation utilities",
+    "author": "gopu-inc",
+    "dependencies": [],
+    "license": "MIT",
+    "repository": "https://github.com/gopu-inc/initlang-packages/datetime",
+    "keywords": ["date", "time", "calendar", "timestamp"],
+    "features": [
+      "Current date/time",
+      "Date formatting",
+      "Time calculations",
+      "Timezone support"
+    ]
+  },
+  "random": {
+    "version": "1.0.0",
+    "description": "Random number generation and probability functions",
+    "author": "gopu-inc",
+    "dependencies": [],
+    "license": "MIT",
+    "repository": "https://github.com/gopu-inc/initlang-packages/random",
+    "keywords": ["random", "numbers", "probability", "generation"],
+    "features": [
+      "Random integer generation",
+      "Random float generation",
+      "List shuffling",
+      "Probability distributions"
+    ]
+  },
+  "collections": {
+    "version": "1.0.0",
+    "description": "Data structures and collection utilities",
+    "author": "gopu-inc",
+    "dependencies": [],
+    "license": "MIT",
+    "repository": "https://github.com/gopu-inc/initlang-packages/collections",
+    "keywords": ["collections", "data", "structures", "arrays", "lists"],
+    "features": [
+      "Array operations",
+      "List manipulation",
+      "Stack and queue",
+      "Collection utilities"
+    ]
+  },
+  "crypto": {
+    "version": "0.1.0",
+    "description": "Basic cryptographic functions and hashing",
+    "author": "gopu-inc",
+    "dependencies": [],
+    "license": "MIT",
+    "repository": "https://github.com/gopu-inc/initlang-packages/crypto",
+    "keywords": ["crypto", "security", "hashing", "encryption"],
+    "features": [
+      "Basic hashing functions",
+      "String encoding",
+      "Simple encryption",
+      "Security utilities"
+    ]
+  },
+  "web": {
+    "version": "0.1.0",
+    "description": "Web development utilities and HTML generation",
+    "author": "gopu-inc",
+    "dependencies": ["http", "json"],
+    "license": "MIT",
+    "repository": "https://github.com/gopu-inc/initlang-packages/web",
+    "keywords": ["web", "html", "css", "development", "browser"],
+    "features": [
+      "HTML generation",
+      "CSS utilities",
+      "Web templates",
+      "Browser simulation"
+    ]
+  },
+  "testing": {
+    "version": "1.0.0",
+    "description": "Testing framework and assertion utilities",
+    "author": "gopu-inc",
+    "dependencies": [],
+    "license": "MIT",
+    "repository": "https://github.com/gopu-inc/initlang-packages/testing",
+    "keywords": ["testing", "unit", "assertions", "framework"],
+    "features": [
+      "Test assertions",
+      "Test runner",
+      "Mocking utilities",
+      "Testing helpers"
+    ]
+  },
+  "cli": {
+    "version": "1.0.0",
+    "description": "Command-line interface utilities and argument parsing",
+    "author": "gopu-inc",
+    "dependencies": [],
+    "license": "MIT",
+    "repository": "https://github.com/gopu-inc/initlang-packages/cli",
+    "keywords": ["cli", "command-line", "arguments", "interface"],
+    "features": [
+      "Argument parsing",
+      "Command execution",
+      "Terminal utilities",
+      "User input"
+    ]
+  },
+  "database": {
+    "version": "0.1.0",
+    "description": "Database connectivity and ORM utilities",
+    "author": "gopu-inc",
+    "dependencies": ["json"],
+    "license": "MIT",
+    "repository": "https://github.com/gopu-inc/initlang-packages/database",
+    "keywords": ["database", "sql", "orm", "storage"],
+    "features": [
+      "Database connections",
+      "Query execution",
+      "Data modeling",
+      "Transaction support"
+    ]
+  },
+  "ai": {
+    "version": "0.1.0",
+    "description": "Artificial intelligence and machine learning utilities",
+    "author": "gopu-inc",
+    "dependencies": ["math", "collections"],
+    "license": "MIT",
+    "repository": "https://github.com/gopu-inc/initlang-packages/ai",
+    "keywords": ["ai", "machine-learning", "neural-networks", "intelligence"],
+    "features": [
+      "Basic ML algorithms",
+      "Neural network utilities",
+      "Data preprocessing",
+      "Model training"
+    ]
+  },
+  "games": {
+    "version": "1.0.0",
+    "description": "Game development utilities and game engine components",
+    "author": "gopu-inc",
+    "dependencies": ["math", "random"],
+    "license": "MIT",
+    "repository": "https://github.com/gopu-inc/initlang-packages/games",
+    "keywords": ["games", "development", "engine", "graphics"],
+    "features": [
+      "Game loop utilities",
+      "Sprite management",
+      "Collision detection",
+      "Game state management"
+    ]
+  },
+  "stats": {
+    "version": "1.0.0",
+    "description": "Statistical analysis and data science utilities",
+    "author": "gopu-inc",
+    "dependencies": ["math", "collections"],
+    "license": "MIT",
+    "repository": "https://github.com/gopu-inc/initlang-packages/stats",
+    "keywords": ["statistics", "analysis", "data-science", "metrics"],
+    "features": [
+      "Descriptive statistics",
+      "Probability distributions",
+      "Statistical tests",
+      "Data analysis"
+    ]
+  },
+  "network": {
+    "version": "0.1.0",
+    "description": "Network programming and socket utilities",
+    "author": "gopu-inc",
+    "dependencies": [],
+    "license": "MIT",
+    "repository": "https://github.com/gopu-inc/initlang-packages/network",
+    "keywords": ["network", "sockets", "tcp", "udp", "communication"],
+    "features": [
+      "Socket programming",
+      "Network protocols",
+      "Client/server utilities",
+      "Data transmission"
+    ]
+  },
+  "gui": {
+    "version": "0.1.0",
+    "description": "Graphical user interface components",
+    "author": "gopu-inc",
+    "dependencies": [],
+    "license": "MIT",
+    "repository": "https://github.com/gopu-inc/initlang-packages/gui",
+    "keywords": ["gui", "interface", "graphical", "windows"],
+    "features": [
+      "Window management",
+      "UI components",
+      "Event handling",
+      "Layout management"
+    ]
+  },
+  "science": {
+    "version": "1.0.0",
+    "description": "Scientific computing and numerical analysis",
+    "author": "gopu-inc",
+    "dependencies": ["math", "stats"],
+    "license": "MIT",
+    "repository": "https://github.com/gopu-inc/initlang-packages/science",
+    "keywords": ["science", "numerical", "analysis", "computing"],
+    "features": [
+      "Numerical methods",
+      "Scientific constants",
+      "Unit conversions",
+      "Data visualization"
+    ]
+  },
+  "finance": {
+    "version": "1.0.0",
+    "description": "Financial calculations and economic utilities",
+    "author": "gopu-inc",
+    "dependencies": ["math", "stats"],
+    "license": "MIT",
+    "repository": "https://github.com/gopu-inc/initlang-packages/finance",
+    "keywords": ["finance", "economic", "calculations", "money"],
+    "features": [
+      "Financial formulas",
+      "Interest calculations",
+      "Investment analysis",
+      "Currency conversion"
+    ]
+  }
+}
