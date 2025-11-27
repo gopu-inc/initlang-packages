@@ -1,0 +1,50 @@
+# Module mathématique avancé
+
+init.log("Math package loaded!")
+
+# Opérations de base
+fi add(a, b) { return a + b }
+fi subtract(a, b) { return a - b }
+fi multiply(a, b) { return a * b }
+fi divide(a, b) { return a / b }
+
+# Fonctions avancées
+fi power(base, exponent) {
+    let result ==> 1
+    let i ==> 0
+    while i < exponent {
+        result ==> result * base
+        i ==> i + 1
+    }
+    return result
+}
+
+fi sqrt(x) {
+    if x < 0 { return 0 }
+    let guess ==> x / 2
+    let i ==> 0
+    while i < 10 {
+        guess ==> (guess + x / guess) / 2
+        i ==> i + 1
+    }
+    return guess
+}
+
+fi max(a, b) {
+    if a > b { return a } 
+    else { return b }
+}
+
+fi min(a, b) {
+    if a < b { return a }
+    else { return b }
+}
+
+# Constantes
+let PI ==> 3.141592653589793
+let E ==> 2.718281828459045
+
+# Fonction de démonstration
+fi hello() {
+    init.ger("Math package ready! PI = " + PI)
+}
